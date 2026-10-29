@@ -1,7 +1,7 @@
-export default function Home() {
-  return (
-    <div className="p-8">
-      <h1 className="pixel neon-cyan text-sm">BIBLIOTECA</h1>
-    </div>
-  );
+import { Library } from "./components/library";
+import { getGames } from "./data/games";
+
+export default async function Home() {
+  const games = await getGames();
+  return <Library games={games} />;
 }
