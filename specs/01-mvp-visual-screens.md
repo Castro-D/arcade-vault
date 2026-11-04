@@ -1,6 +1,6 @@
 # SPEC 01 — MVP visual screens
 
-> **Status:** Approved
+> **Status:** Implemented
 > **Depends on:** None (theme already ported to `app/globals.css` and fonts/background wired in `app/layout.tsx`)
 > **Date:** 2026-10-29
 > **Objective:** Build all five prototype screens (library, game detail, player, auth, hall of fame) as Next.js App Router routes with mock data, visuals only, no real game logic.
